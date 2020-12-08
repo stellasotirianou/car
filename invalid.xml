@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE HOTEL SYSTEM "erotima1.dtd">
+
+<HOTEL stars="5">
+    <rooms>
+	    <room room_id="A1">
+		    <room_name>Blue room</room_name>
+			<capacity people="2"/>
+			<bednum>
+			    <double>1</double>
+				<sofa>1</sofa>
+			</bednum>
+			<amenities>
+			    <amenity>
+				    <amenity_name>Ηeating</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Room service</amenity_name>
+				</amenity>
+			</amenities>
+			<prices>
+			    <price period="low">40</price>
+				<price period="medium">50</price>
+				<price period="high">70</price>
+			</prices>
+		</room>
+		<room>
+		    <room_name suite="no" floor="1">White room</room_name>
+			<capacity people="5"/>
+			<bednum>
+				<kingsize>2</kingsize>
+				<sofa>1</sofa>
+			</bednum>
+			<view>sea</view>
+			<view>mountain</view>
+			<amenities>
+			    <amenity>
+				    <amenity_name>Ηeating</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Room service</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Drinks</amenity_name>
+				</amenity>
+			</amenities>
+			<prices>
+			</prices>
+		</room>
+		<room room_id="B1">
+		    <room_name>Pink room</room_name>
+			<capacity people="3"/>
+			<view>sea</view>
+			<amenities>
+			    <amenity>
+				    <amenity_name>Ηeating</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+			</amenities>
+			<bednum>
+			    <double>2</double>
+				<sofa>2</sofa>
+			</bednum>
+			<prices>
+			    <price>40</price>
+				<price period="medium">50</price>
+				<price>70</price>
+			</prices>
+		</room>
+		<room room_id="B2">
+		    <room_name>Black room</room_name>
+			<capacity people="4"/>
+			<bednum>
+			    <single>1</single>
+				<single>1</single>
+			    <double>2</double>
+			</bednum>
+			<view>sea</view>
+			<view>mountain</view>
+			<prices>
+			    <price period="low">40</price>
+				<price period="medium">50</price>
+				<price period="high">70</price>
+			</prices>
+		</room>
+		<room room_id="B3">
+		    <room_name suite="yes" floor="2">Gold room</room_name>
+			<capacity>4</capacity>
+			<bednum>
+			    <single>1</single>
+				<kingsize>2</kingsize>
+				<sofa>1</sofa>
+				<sofa>1</sofa>
+			</bednum>
+			<view>sea</view>
+			<view>mountain</view>
+			<amenities>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Room service</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Drinks</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Toilet-cosmetic items</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Strongbox</amenity_name>
+				</amenity>
+				<amenity extra_charge="yes">
+				    <amenity_name>Laundry and laundry service</amenity_name>
+				</amenity>
+			</amenities>
+			<prices>
+			    <price period="low">100</price>
+				<price period="medium">120</price>
+				<price period="high">165</price>
+			</prices>
+		</room>
+	</rooms>
+	<offers>
+	    <offer offer_price="200">
+	        <time from="22 August" to="25 August"></time>
+	    </offer>
+	    <offer rooms_id="B3 B4" offer_price="150">
+	        <time from="12 July" to="15 July">200</time>
+	    </offer>
+	    <offer rooms_id="Α3 B2" offer_price="80">
+	        <time from="8 August"></time>
+	    </offer>
+	    <offer rooms_id="Α1 A2 B4" offer_price="160">
+	        <time></time>
+	    </offer>
+	</offers>
+</HOTEL>

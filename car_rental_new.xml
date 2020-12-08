@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="present1test.xsl" ?>
+<!DOCTYPE car_to_rent SYSTEM "car_rental_new.dtd" >
+<car_to_rent>
+    <car no="No.1">
+        <manufacturer_brand>
+            Renault 
+            <model>CLIO V</model>
+        </manufacturer_brand>
+        <main_characteristics>
+            <Engine>1.5 dci 85hp</Engine>
+            <CO2_emissions em_unit="grCO2/km">101</CO2_emissions>
+            <Fuel_consumption unit_fuel="lt/100km">3,6 - 3,8</Fuel_consumption>
+        </main_characteristics>
+        <extra_car_info color="Λευκό" mini_model_description="1.5 dci 85hp AUTHENTIC MANUAL"></extra_car_info>
+        <economic_info_leasing>
+            <monthly_leasing leasing_unit="euro" without_tax="true">143€</monthly_leasing>
+            <monthly_leasing leasing_unit="euro" without_tax="false" tax="24%">177€</monthly_leasing>
+            <payment_in_advance>
+               <amount without_tax="false" tax="24%" payment_unit="euro">3200€</amount>
+               <amount without_tax="true" payment_unit="euro">3968€</amount>
+               <descr>Λαμβάνεται ως πρώτο μίσθωμα</descr>
+            </payment_in_advance>
+            <retail_price retail_unit="euro">15.592€</retail_price>
+            <Retail_price_before_taxes  retail_bef_tax_unit="euro">11.921€</Retail_price_before_taxes>
+            <detail_econ_info>Η τιμή ισχύει για μίσθωση 48 μηνών και καλύπτει 20.000 χλμ. τον χρόνο.</detail_econ_info>
+        </economic_info_leasing>
+        <equipment>
+            <basic_equipment>
+                <equip id="(1)">ABS με EBV και AFU</equip>
+                <equip id="(2)">Ηλεκτρονικός έλεγχος ευστάθειας (ESC) και ASR</equip>
+                <equip id="(3)">Hill Start Assist (σύστημα υποβοήθησης εκκίνησης σε οδόστρωμα με κλίση)</equip>
+                <equip id="(4)">Μετωπικοί αερόσακοι οδηγού-συνοδηγού </equip>
+                <equip id="(5)">Αερόσακοι πλευρικοί εμπρός  για την προστασία του κεφαλιού και του θώρακα</equip>
+                <equip id="(6)">Αερόσακοι τύπου κουρτίνας εμπρός/πίσω</equip>
+                <equip id="(7)">Αυτόματο σύστημα πέδησης έκτακτης ανάγκης με ανίχνευση πεζών και δικύκλων (AEB)</equip>
+                <equip id="(8)">Cruise Control με Speed limiter και χειριστήρια στο τιμόνι</equip>
+                <equip id="(9">Αναγνώριση πινακίδων οδικής κυκλοφορίας (TSR) </equip>
+                <equip id="(10)">Σύστημα υποβοήθησης διατήρησης λωρίδας (LKA) &amp; Προειδοποίηση Αλλαγής Λωρίδας Κυκλοφορίας (LDW)</equip>
+                <equip id="(11)">Πίνακας οργάνων με εγχρωμη οθόνη 4,2”</equip>
+                <equip id="(12)">Air Condition με φίλτρο γύρης και μικροσωματιδίων</equip>
+                <equip id="(13)">Τιμόνι ρυθμιζόμενο σε ύψος και μήκος , με ηλεκτρική υποβοήθηση</equip>
+                <equip id="(14)">Κάθισμα οδηγού ρυθμιζόμενο σε ύψος</equip>
+                <equip id="(15)">Εμπρός προσκέφαλα ρυθμιζόμενα καθ'ύψος</equip>
+                <equip id="(16)">3 προσκέφαλα πίσω, ρυθμιζόμενα σε ύψος</equip>
+                <equip id="(17)">Διαιρούμενο πίσω κάθισμα 1/3-2/3</equip>
+                <equip id="(18)">Ηλεκτρικά παράθυρα εμπρός &amp; Παράθυρο οδηγού συνεχούς λειτουργίας</equip>
+                <equip id="(19)">Υπολογιστής ταξιδίου</equip>
+                <equip id="(20)">Διακόπτης ECO</equip>
+                <equip id="(21)">Ηλεκτρικά ρυθμιζόμενοι &amp; θερμαινόμενοι καθρέφτες</equip>
+                <equip id="(22)">Κεντρικό κλείδωμα με τηλεχειρισμό (Foldable key )</equip>
+                <equip id="(23)">Φώτα ημέρας LED</equip>
+                <equip id="(24)">Τροχοί 15'' IREMIA</equip>
+            </basic_equipment>
+        </equipment>
+        <offer_include>
+           <include>- Συντήρηση και επισκευή αυτοκινήτου</include>
+           <include>- Πλήρη ασφαλιστική κάλυψη (ίδιες ζημιές με απαλλαγή - 24ωρη οδική βοήθεια)</include>
+           <include>- Τέλη κυκλοφορίας</include>
+           <include>- Αντικατάσταση αυτοκινήτου</include>
+           <include>- Δυνατότητα χρήσης προσωρινού αυτοκινήτου</include>
+           <include>- Αλλαγή ελαστικών</include>
+        </offer_include>
+        
+    </car>
+    <car no="No.2">
+        <manufacturer_brand>
+            Mini Cooper
+            <model>Mini Countryman</model>
+        </manufacturer_brand>
+         <main_characteristics>
+            <Engine>Euro 6DG Βενζίνη</Engine>
+            <CO2_emissions em_unit="grCO2/km">122</CO2_emissions>
+            <Fuel_consumption unit_fuel="lt/100km">5,4</Fuel_consumption>
+        </main_characteristics>
+        <extra_car_info color="Μαύρο" mini_model_description="Executive AUTO"></extra_car_info>
+        <economic_info_leasing>
+            <monthly_leasing leasing_unit="euro" without_tax="true">239€</monthly_leasing>
+            <monthly_leasing leasing_unit="euro" without_tax="false" tax="24%">296€</monthly_leasing>
+            <payment_in_advance>
+               <amount without_tax="false" tax="24%" payment_unit="euro">5.700€</amount>
+               <descr without_tax="true" payment_unit="euro">7.068€</descr>
+            </payment_in_advance>
+            <retail_price retail_unit="euro">28.176€</retail_price>
+            <Retail_price_before_taxes  retail_bef_tax_unit="euro">19.898€</Retail_price_before_taxes>
+            <detail_econ_info> Η τιμή ισχύει για μίσθωση 48 μηνών και καλύπτει 18.000 χλμ. τον χρόνο.</detail_econ_info>
+        </economic_info_leasing>
+         <equipment>
+            <basic_equipment>
+                <equip id="(1)">Δυναμικός Έλεγχος Ευστάθειας</equip>
+                <equip id="(2)">Προειδοποίηση πρόσκρουσης</equip>
+                <equip id="(3)">Εκκίνηση χωρίς χρήση κλειδιού</equip>
+                <equip id="(4)">Σπορ δερμάτινο πολυλειτουργικό τιμόνι </equip>
+                <equip id="(5)"> Servotronic</equip>
+                <equip id="(6)">Υποβραχιόνιο εμπρός</equip>
+                <equip id="(7)">Έγχρωμη κεντρική οθόνη αφής 6,5’’ Visual Boost</equip>
+                <equip id="(8)">Υπολογιστής ταξιδίου</equip>
+                <equip id="(9)"> 8 προγραμματιζόμενα πλήκτρα αφής, άμεσης πρόσβασης λειτουργιών &amp; πολύ-χειριστήριο iDrive</equip>
+                <equip id="(10)">Ηχοσύστημα με 6 ηχεία</equip>
+                <equip id="(11)">Σύστημα ανοικτής ακρόασης Bluetooth &amp; θύρα USB</equip>
+                <equip id="(12)">Κλήση έκτακτης ανάγκης / Teleservices</equip>
+                <equip id="(13)">Ηλεκτρικό χειρόφρενο</equip>
+                <equip id="(14)">Αισθητήρας βροχής και φώτων</equip>
+                <equip id="(15)">Πίσω φώτα LED</equip>
+                <equip id="(16)">Ένδειξη πίεσης ελαστικών</equip>
+                <equip id="(17)">Κιτ επισκευής ελαστικών</equip>
+                <equip id="(18)">Επένδυση καθισμάτων με ύφασμα</equip>
+                <equip id="(19)">Αναδιπλούμενο πίσω κάθισμα (40:20:40</equip>
+                <equip id="(20)">Στήριξη παιδικού καθίσματος Isofix εμπρός</equip>
+                <equip id="(21)">Λευκά φλας</equip>
+                <equip id="(22)">Κάθισμα συνοδηγού ρυθμιζόμενο καθ΄ ύψος</equip>
+                <equip id="(23)">Βελούδινα ταπέτα</equip>
+            </basic_equipment>
+            <executive_equip>
+                <exec_equip id="(1)">Αυτόματο κιβώτιο 7 σχέσεων</exec_equip>
+                <exec_equip id="(2)">Μεταλλικό χρώμα</exec_equip>
+                <exec_equip id="(3)">Ζάντες ελαφρού κράματος 17’’</exec_equip>
+                <exec_equip id="(4)">Ράγες οροφής</exec_equip>
+                <exec_equip id="(5)">Αυτόματος διζωνικός κλιματισμός</exec_equip>
+                <exec_equip id="(6)">Αισθητήρες παρκαρίσματος πίσω</exec_equip>
+                <exec_equip id="(7)">Πακέτο φωτισμού</exec_equip>
+                <exec_equip id="(8)">Προβολείς ομίχλης LED</exec_equip>
+                <exec_equip id="(9)">Σύστημα πλοήγησης ΜΙΝΙ</exec_equip>
+                <exec_equip id="(10)">Apple CarPlay</exec_equip>
+                <exec_equip id="(11)">Χρώμα οροφής σε μαύρο, ασημί, λευκό ή στο χρώμα του αμαξώματος</exec_equip>
+            </executive_equip>
+        </equipment>
+        <offer_include>
+           <include>- Συντήρηση και επισκευή αυτοκινήτου</include>
+           <include>- Πλήρη ασφαλιστική κάλυψη (ίδιες ζημιές με απαλλαγή - 24ωρη οδική βοήθεια)</include>
+           <include>- Τέλη κυκλοφορίας</include>
+           <include>- Αντικατάσταση αυτοκινήτου</include>
+           <include>- Δυνατότητα χρήσης προσωρινού αυτοκινήτου</include>
+           <include>- Αλλαγή ελαστικών</include>
+        </offer_include>
+    </car>
+    <car no="No.3">
+        <manufacturer_brand >
+            Toyota
+            <model>Aygo Auto</model>
+        </manufacturer_brand>
+         <main_characteristics>
+            <Engine>Petrol/Euro 6.2</Engine>
+            <CO2_emissions em_unit="grCO2/km">95</CO2_emissions>
+            <Fuel_consumption unit_fuel="lt/100km">4,2</Fuel_consumption>
+        </main_characteristics>
+        <extra_car_info color="Κόκκινο" mini_model_description="Χ-Play MMT" ></extra_car_info>
+        <economic_info_leasing>
+            <monthly_leasing leasing_unit="euro" without_tax="true">123€</monthly_leasing>
+            <monthly_leasing leasing_unit="euro" without_tax="false" tax="24%">153€</monthly_leasing>
+            <payment_in_advance>
+               <amount without_tax="false" tax="24%" payment_unit="euro">2.300€</amount>
+               <descr without_tax="true" payment_unit="euro">2.852€</descr>
+            </payment_in_advance>
+            <retail_price retail_unit="euro">13.320€</retail_price>
+            <Retail_price_before_taxes  retail_bef_tax_unit="euro">10.422,53€</Retail_price_before_taxes>
+            <detail_econ_info> Η τιμή ισχύει για μίσθωση 48 μηνών και καλύπτει 25.000 χλμ. τον χρόνο.</detail_econ_info>
+        </economic_info_leasing>
+         <equipment>
+            <basic_equipment>
+                <equip id="(1)">Ηλεκτρικοί εξωτερικοί καθρέπτες</equip>
+                <equip id="(2)">Θερμαινόμενοι εξωτερικοί καθρέπτες</equip>
+                <equip id="(3)">Χειριστήρια ηχοσυστήματος στο τιμόνι</equip>
+                <equip id="(4)">Σύστημα ανοιχτής ακρόασης Bluetooth</equip>
+                <equip id="(5)">Ηλεκτρικά παράθυρα εμπρός</equip>
+                <equip id="(6)">Ραδιο/CD με 4 ηχεία και υποδοχή USB</equip>
+                <equip id="(7)">Οθόνη συνδεσιμότητας 7"</equip>
+                <equip id="(8)">Δυνατότητα σύνδεσης με Smartphone</equip>
+                <equip id="(9)">Κάμερα οπισθοπορείας</equip>
+                <equip id="(10)">Σύστημα υποβοήθησης HAC</equip>
+                <equip id="(11)">6 αερόσακοι</equip>
+                <equip id="(12)">Ατσάλινες ζάντες 15''</equip>
+                <equip id="(13)">Βοηθητική Ρεζέρβα</equip>
+                <equip id="(14)">Φώτα ημέρας LED</equip>
+                <equip id="(15)">Τηλεχειρισμός κεντρικού κλειδώματος</equip>
+            </basic_equipment>
+        </equipment>
+        <offer_include>
+           <include>- Συντήρηση και επισκευή αυτοκινήτου</include>
+           <include>- Πλήρη ασφαλιστική κάλυψη (ίδιες ζημιές με απαλλαγή - 24ωρη οδική βοήθεια)</include>
+           <include>- Τέλη κυκλοφορίας</include>
+           <include>- Αντικατάσταση αυτοκινήτου</include>
+           <include>- Δυνατότητα χρήσης προσωρινού αυτοκινήτου</include>
+        </offer_include>
+    </car>
+    <car no="No.4">
+        <manufacturer_brand>
+            Mazda
+            <model>Mazda2 Auto</model>
+        </manufacturer_brand>
+         <main_characteristics>
+            <Engine>1.5L Euro 6d-temp βενζίνη</Engine>
+            <CO2_emissions em_unit="grCO2/km" mixed_cycle="">118</CO2_emissions>
+            <Fuel_consumption unit_fuel="lt/100km" mixed_cycle="">5,2</Fuel_consumption>
+        </main_characteristics>
+        <extra_car_info color="Κόκκινο" mini_model_description="G90 AT Attraction Petrol Metallic"></extra_car_info>
+        <economic_info_leasing>
+            <monthly_leasing leasing_unit="euro" without_tax="true">159€</monthly_leasing>
+            <monthly_leasing leasing_unit="euro" without_tax="false" tax="24%">197€</monthly_leasing>
+            <payment_in_advance>
+               <amount without_tax="false" tax="24%" payment_unit="euro">3.600€</amount>
+               <amount without_tax="true" payment_unit="euro">4.464€</amount>
+               <descr>Λαμβάνεται ως πρώτο μίσθωμα</descr>
+            </payment_in_advance>
+            <retail_price retail_unit="euro">17.691€</retail_price>
+            <Retail_price_before_taxes  retail_bef_tax_unit="euro">13.459,38€</Retail_price_before_taxes>
+            <detail_econ_info> Η τιμή ισχύει για μίσθωση 48 μηνών και καλύπτει 25.000 χλμ. τον χρόνο.</detail_econ_info>
+        </economic_info_leasing>
+         <equipment>
+            <basic_equipment>
+                <equip id="(1)">Vectoring Control</equip>
+                <equip id="(2)">Μπροστινοί αερόσακοι</equip>
+                <equip id="(3)">Αερόσακοι κεφαλής/ώμων</equip>
+                <equip id="(4)">Πλευρικοί αερόσακοι</equip>
+                <equip id="(5)">Tire Pressure Monitoring System (TPMS)</equip>
+                <equip id="(6)">Υποβοήθηση εκκίνησης στην ανηφόρα</equip>
+                <equip id="(7)">Μπουτόν ενεργοποίησης κινητήρα</equip>
+                <equip id="(8)">Υπολογιστής ταξιδίου</equip>
+                <equip id="(9)">Ηλεκτρικά ρυθμιζόμενοι καθρέπτες</equip>
+                <equip id="(10)">Ηλεκτρικά παράθυρα</equip>
+                <equip id="(11)">Κεντρικό κλείδωμα</equip>
+                <equip id="(12)">Κάθισμα Οδηγού ρυθμιζόμενο καθ' ύψος</equip>
+                <equip id="(13)">Cruise Control</equip>
+                <equip id="(14)">Θερμαινόμενοι καθρέπτες</equip>
+                <equip id="(15)">Κάθισμα συνοδηγού ρυθμιζόμενο καθ' ύψος</equip>
+                <equip id="(16)">Τροχοί ελαφρού κράματος 15"</equip>
+                <equip id="(17)">HMI-Commander</equip>
+                <equip id="(18)">Σύστημα ελέγχου νεκρής γωνίας</equip>
+                <equip id="(19)">Αυτόματος κλιματισμός</equip>
+                <equip id="(20)">Αισθητήρας φωτός και βροχής</equip>
+                <equip id="(21)">Ηχοσύστημα με οθόνη αφής 7'', 6 ηχεία, USB, AUX</equip>
+                <equip id="(22)">Πίσω αισθητήρας παρκαρίσματος</equip>
+            </basic_equipment>
+            <executive_equip>
+                <exec_equip id="(1)">Τιμόνι με δερμάτινη επένδυση</exec_equip>
+                <exec_equip id="(2)">Μεταλλικό χρώμα</exec_equip>
+                <exec_equip id="(3)"> Μοχλός ταχυτήτων με δερμάτινη επένδυση</exec_equip>
+                <exec_equip id="(4)">Bluetooth®</exec_equip>
+                <exec_equip id="(5)">Σύστημα ειδοποίησης για παρέκκλιση από τη λωρίδα κυκλοφορίας</exec_equip>
+                <exec_equip id="(6)">Βελούδινα ταπέτα</exec_equip>
+            </executive_equip>
+        </equipment>
+        <offer_include>
+           <include>- Συντήρηση και επισκευή αυτοκινήτου</include>
+           <include>- Πλήρη ασφαλιστική κάλυψη (ίδιες ζημιές με απαλλαγή - 24ωρη οδική βοήθεια)</include>
+           <include>- Τέλη κυκλοφορίας</include>
+           <include>- Αντικατάσταση αυτοκινήτου</include>
+        </offer_include>
+    </car>
+</car_to_rent>

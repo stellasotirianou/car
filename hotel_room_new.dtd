@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT HOTEL (rooms,offers)>
+<!ATTLIST HOTEL hotel_name CDATA #REQUIRED>
+<!ATTLIST HOTEL stars CDATA #REQUIRED>
+<!ELEMENT rooms (room+)>
+<!ELEMENT room (room_image+,room_name,capacity,bednum,view+,amenities,prices)>
+<!ATTLIST room room_id ID #REQUIRED>
+<!ELEMENT room_name (#PCDATA)>
+<!ATTLIST room_name suite (yes|no) #IMPLIED>
+<!ATTLIST room_name floor CDATA #IMPLIED>
+<!ATTLIST room_name wifi (yes|no) "yes">
+<!ELEMENT capacity EMPTY>
+<!ATTLIST capacity people (1|2|3|4) #REQUIRED>
+<!ELEMENT bednum (single?,double?,kingsize?,sofa?)>
+<!ELEMENT single (#PCDATA)>
+<!ELEMENT double (#PCDATA)>
+<!ELEMENT kingsize (#PCDATA)>
+<!ELEMENT sofa (#PCDATA)>
+<!ELEMENT view (#PCDATA)>
+<!ELEMENT amenities (amenity*)>
+<!ELEMENT amenity (amenity_name)>
+<!ATTLIST amenity extra_charge (yes|no) "no">
+<!ELEMENT amenity_name (#PCDATA)>
+<!ELEMENT prices (price*)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price period (low|medium|high) #REQUIRED>
+<!ELEMENT offers (offer*)>
+<!ELEMENT offer (time)>
+<!ATTLIST offer rooms_id IDREFS #REQUIRED>
+<!ATTLIST offer offer_price CDATA #REQUIRED>
+<!ELEMENT time EMPTY>
+<!ATTLIST time from CDATA #REQUIRED>
+<!ATTLIST time to CDATA #REQUIRED>
+<!ELEMENT room_image EMPTY>
+<!ATTLIST room_image Source ENTITY #REQUIRED>
+<!NOTATION JPEG SYSTEM "JPEGViewer.exe">
+<!ENTITY roomA1a SYSTEM "roomA1a.jpeg" NDATA JPEG>
+<!ENTITY roomA1b SYSTEM "roomA1b.jpeg" NDATA JPEG>
+<!ENTITY roomA2 SYSTEM "roomA2.jpeg" NDATA JPEG>
+<!ENTITY roomA3 SYSTEM "roomA3.jpeg" NDATA JPEG>
+<!ENTITY roomB1 SYSTEM "roomB1.jpeg" NDATA JPEG>
+<!ENTITY roomB2 SYSTEM "roomB2.jpeg" NDATA JPEG>
+<!ENTITY roomB3a SYSTEM "roomB3a.jpeg" NDATA JPEG>
+<!ENTITY roomB3b SYSTEM "roomB3b.jpeg" NDATA JPEG>
+<!ENTITY roomB3c SYSTEM "roomB3c.jpeg" NDATA JPEG>
+<!ENTITY roomB4 SYSTEM "roomB4.jpeg" NDATA JPEG>

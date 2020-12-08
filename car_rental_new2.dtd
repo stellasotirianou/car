@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT car_to_rent (car*)>
+<!ELEMENT car (manufacturer_brand,main_characteristics,economic_info_leasing,equipment,offer_include,extra_car_info,extra_leasing_info,ratings)>
+<!ATTLIST car no ID #REQUIRED>
+<!ATTLIST car polution_level (1|2|3|4|5) #IMPLIED>
+<!ELEMENT manufacturer_brand (#PCDATA | model)*>
+<!ELEMENT model (#PCDATA)>
+
+<!ELEMENT main_characteristics ( (Engine,CO2_emissions,Fuel_consumption)|
+                                 (Fuel_consumption,Engine,CO2_emissions)|
+                                 (CO2_emissions,Fuel_consumption,Engine)|
+                                 (Engine,Fuel_consumption,CO2_emissions)| 
+                                 (Fuel_consumption,CO2_emissions,Engine)|
+                                 (CO2_emissions,Engine,Fuel_consumption))>
+<!ELEMENT Engine (#PCDATA)>
+<!ELEMENT CO2_emissions (#PCDATA)>
+<!ATTLIST CO2_emissions em_unit CDATA #FIXED "grCO2/km"> 
+<!ATTLIST CO2_emissions mixed_cycle CDATA #IMPLIED>
+<!ELEMENT Fuel_consumption (#PCDATA)>
+<!ATTLIST Fuel_consumption unit_fuel CDATA #FIXED "lt/100km">
+<!ATTLIST Fuel_consumption mixed_cycle CDATA #IMPLIED>
+
+<!ELEMENT economic_info_leasing ( (monthly_leasing | (monthly_leasing,monthly_leasing)) ,payment_in_advance,retail_price,retail_price_before_taxes,detail_econ_info)>
+<!ELEMENT monthly_leasing (#PCDATA)>
+<!ATTLIST monthly_leasing leasing_unit CDATA "euro">
+<!ATTLIST monthly_leasing without_tax (true|false) #REQUIRED>
+<!ATTLIST monthly_leasing tax CDATA "24%">
+<!ELEMENT payment_in_advance (amount+,descr?)>
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT descr (#PCDATA)>
+<!ATTLIST amount without_tax (true|false) #REQUIRED>
+<!ATTLIST amount tax CDATA "24%">
+<!ATTLIST amount payment_unit CDATA "euro">
+<!ELEMENT retail_price (#PCDATA)>
+<!ATTLIST retail_price retail_unit CDATA "euro">
+<!ELEMENT retail_price_before_taxes (#PCDATA)>
+<!ATTLIST retail_price_before_taxes retail_bef_tax_unit CDATA "euro">
+<!ELEMENT detail_econ_info (#PCDATA)>
+
+<!ELEMENT equipment (basic_equipment,executive_equip?)>
+<!ELEMENT basic_equipment (equip+)>
+<!ELEMENT equip (#PCDATA)>
+<!ATTLIST equip id ID #REQUIRED>
+<!ELEMENT executive_equip (exec_equip+)>
+<!ELEMENT exec_equip (#PCDATA)>
+<!ATTLIST exec_equip id ID #REQUIRED>
+
+<!ELEMENT offer_include (include*)>
+<!ELEMENT include (#PCDATA)>
+
+<!ELEMENT extra_car_info EMPTY>
+<!ATTLIST extra_car_info mini_model_description CDATA #IMPLIED>
+<!ATTLIST extra_car_info color CDATA #REQUIRED>
+
+<!ELEMENT extra_leasing_info (category | (category,category))>
+<!ELEMENT category (#PCDATA)>
+
+<!ELEMENT ratings (rating*)>
+<!ELEMENT rating (username,comment?)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ATTLIST rating stars (1|2|3|4|5) #REQUIRED>

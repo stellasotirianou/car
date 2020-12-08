@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE HOTEL SYSTEM "erotima1.dtd">
+
+<HOTEL hotel_name="palace" stars="5">
+    <rooms>
+	    <room room_id="A1">
+		    <room_image Source="roomA1a" />
+            <room_image Source="roomA1b" />
+		    <room_name suite="no" floor="1">Blue room</room_name>
+			<capacity people="2"/>
+			<bednum>
+			    <double>1</double>
+			</bednum>
+			<view>sea</view>
+			<view>mountain</view>
+			<amenities>
+			    <amenity>
+				    <amenity_name>Ηeating</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Room service</amenity_name>
+				</amenity>
+			</amenities>
+			<prices>
+			    <price period="low">40</price>
+				<price period="medium">50</price>
+				<price period="high">70</price>
+			</prices>
+		</room>
+		<room room_id="A2">
+		    <room_image Source="roomA2"/>
+		    <room_name suite="no" floor="1">Orange room</room_name>
+			<capacity people="4"/>
+			<bednum>
+			    <single>1</single>
+			    <double>1</double>
+				<sofa>1</sofa>
+			</bednum>
+			<view>mountain</view>
+			<amenities>
+			    <amenity>
+				    <amenity_name>Ηeating</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Room service</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Drinks</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Toilet-cosmetic items</amenity_name>
+				</amenity>
+			</amenities>
+			<prices></prices>
+		</room>
+		<room room_id="A3">
+		     <room_image Source="roomA3"/>
+		    <room_name suite="no" floor="1" wifi="no">Green room</room_name>
+			<capacity people="3"/>
+			<bednum>
+			    <single>1</single>
+				<kingsize>1</kingsize>
+			</bednum>
+			<view>sea</view>
+			<view>mountain</view>
+			<amenities>
+			    <amenity>
+				    <amenity_name>Ηeating</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Room service</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Drinks</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Toilet-cosmetic items</amenity_name>
+				</amenity>
+			</amenities>
+			<prices>
+			    <price period="low">45</price>
+				<price period="medium">55</price>
+				<price period="high">80</price>
+			</prices>
+		</room>
+		<room room_id="B1">
+		     <room_image Source="roomB1"/>
+		    <room_name suite="yes">Gold room</room_name>
+			<capacity people="2"/>
+			<bednum>
+				<kingsize>1</kingsize>
+				<sofa>2</sofa>
+			</bednum>
+			<view>sea</view>
+			<view>mountain</view>
+			<amenities>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Room service</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Drinks</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Toilet-cosmetic items</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Strongbox</amenity_name>
+				</amenity>
+				<amenity extra_charge="yes">
+				    <amenity_name>Laundry and laundry service</amenity_name>
+				</amenity>
+			</amenities>
+			<prices>
+			    <price period="low">80</price>
+				<price period="medium">100</price>
+				<price period="high">140</price>
+			</prices>
+		</room>
+		<room room_id="B2">
+		     <room_image Source="roomB2"/>
+		    <room_name floor="2">White room</room_name>
+			<capacity people="1"/>
+			<bednum>
+			    <double>1</double>
+			</bednum>
+			<view>mountain</view>
+			<amenities>
+			    <amenity>
+				    <amenity_name>Ηeating</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Room service</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Drinks</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Toilet-cosmetic items</amenity_name>
+				</amenity>
+			</amenities>
+			<prices>
+			    <price period="low">30</price>
+				<price period="medium">47</price>
+				<price period="high">65</price>
+			</prices>
+		</room>
+		<room room_id="B3">
+		     <room_image Source="roomB3a"/> 
+			 <room_image Source="roomB3b"/>
+             <room_image Source="roomB3c"/>
+		    <room_name suite="yes" floor="2">Golden room</room_name>
+			<capacity people="4"/>
+			<bednum>
+			    <single>1</single>
+				<kingsize>2</kingsize>
+				<sofa>1</sofa>
+			</bednum>
+			<view>sea</view>
+			<view>mountain</view>
+			<amenities>
+				<amenity>
+				    <amenity_name>Αir conditioning</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Television</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Hairdryer</amenity_name>
+				</amenity>
+				<amenity  extra_charge="yes">
+				    <amenity_name>Room service</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Drinks</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Toilet-cosmetic items</amenity_name>
+				</amenity>
+				<amenity>
+				    <amenity_name>Strongbox</amenity_name>
+				</amenity>
+				<amenity extra_charge="yes">
+				    <amenity_name>Laundry and laundry service</amenity_name>
+				</amenity>
+			</amenities>
+			<prices>
+			    <price period="low">100</price>
+				<price period="medium">120</price>
+				<price period="high">165</price>
+			</prices>
+		</room>
+		<room room_id="B4">
+		     <room_image Source="roomB4"/>
+		    <room_name suite="no" floor="2">Red room</room_name>
+			<capacity people="4"/>
+			<bednum>
+			    <single>1</single>
+				<kingsize>1</kingsize>
+				<sofa>2</sofa>
+			</bednum>
+			<view>sea</view>
+			<view>mountain</view>
+			<amenities></amenities>
+			<prices></prices>
+		</room>
+	</rooms>
+	<offers>
+	    <offer rooms_id="A1 A2 B1 B2" offer_price="200">
+	        <time from="22 August" to="25 August"></time>
+	    </offer>
+	    <offer rooms_id="B3 B4" offer_price="150">
+	        <time from="12 July" to="15 July"></time>
+	    </offer>
+	    <offer rooms_id="A3 B2" offer_price="80">
+	        <time from="8 August" to="14 August"></time>
+	    </offer>
+	    <offer rooms_id="A1 A2 B4" offer_price="160">
+	        <time from="26 September" to="30 September"></time>
+	    </offer>
+    </offers>
+</HOTEL>
